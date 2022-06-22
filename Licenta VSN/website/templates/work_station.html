@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block title %}Workstation{% endblock %} {% block
+    content %}
+    <form method="POST">
+      <h3 align="center">Workstations</h3>
+      <div class="form-group">
+        <label for="workstation">Workstation TAG</label>
+        <input
+          type="workstation"
+          class="form-control"
+          id="workstation"
+          name="workstation"
+          placeholder="Enter Workstation TAG"
+        />
+      </div>
+      <br />
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    {% endblock %}
